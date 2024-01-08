@@ -1,5 +1,8 @@
 #include <stdlib.h>
 
+// Sums three numbers in an array and returns
+// the sum that is closest to a target value
+
 int compare(const void *a, const void *b)
 {
     return (*(int*)a - *(int*)b);

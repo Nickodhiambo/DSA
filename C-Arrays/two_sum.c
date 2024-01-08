@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// Finds any two elements in array whose sum
+// is equal to a target number
+// Returns a sub array of the two numbers
+
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     // Initialize returnSize
     *returnSize = 2;

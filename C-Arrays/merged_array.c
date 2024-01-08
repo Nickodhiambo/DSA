@@ -1,5 +1,7 @@
 #include <stdlib.h>
 
+// Computes the median of an array
+
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) {
     // Calculate the total size of the merged array
     int totalSize = nums1Size + nums2Size;

@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// Finds an sub array of triplets whose sum is
+// equal to 0
+
 // Function to compare integers for qsort
 int compare(const void *a, const void *b) {
     return (*(int*)a - *(int*)b);
