@@ -5,6 +5,7 @@
  *     struct ListNode *next;
  * };
  */
+
 struct ListNode* rotateRight(struct ListNode* head, int k) {
     if (head == NULL || k == 0)
     {
